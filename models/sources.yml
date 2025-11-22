@@ -1,0 +1,11 @@
+
+version: 2
+
+sources:
+  - name: external_stage_ecommerce
+    schema: external_stage_ecommerce
+    tables:
+      - name: users
+      - name: products
+      - name: orders
+      - name: order_items
